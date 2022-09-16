@@ -18,16 +18,18 @@ body {
 }
 
 .top {
-    background-color: #2ecc71
+    background-color: #8D230F;
+    color: #FFFFFF;
 }
 
 .middle {
     flex: 1;
-    background-color: #3498db;
+    background-color: #9B4F0F;
 }
 
 .bottom {
-    background-color: #e74c3c
+    background-color: #C99E10;
+    color: #000000;
 }
 
 ul {
@@ -39,8 +41,23 @@ li {
     margin-right: 20px;
 }
 
+li a:link {
+    color: #C99E10;
+}
+li a:visited {
+    color: #4B7447;
+}
+li a:hover {
+    color: #FFFFFF;
+}
+li a:active {
+    color: #FFFFFF;
+}
+
 button {
     height: 50px;
     width: 150px;
     font-size: 20px;
+    background-color: #C99E10;
+    color: #000000;
 }
